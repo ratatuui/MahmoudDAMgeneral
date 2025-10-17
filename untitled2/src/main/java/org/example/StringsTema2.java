@@ -36,7 +36,7 @@ public class StringsTema2 {
         int posicion_ultimo = frase.lastIndexOf("palo");
         System.out.println(posicion_ultimo);
 
-        // Para cambiar la frase (Mayusculas y minusculas
+        // Para cambiar la frase (Mayusculas y minusculas)
         String frase_mayusculas = frase.toUpperCase();
         System.out.println(frase_mayusculas);
 
@@ -44,7 +44,7 @@ public class StringsTema2 {
         String frase_minusculas = frase.toLowerCase();
         System.out.println(frase_minusculas);
 
-        //para comparar en una base de datos
+        //para comparar en una base de datos o poder permitir espacios(trim())
         String base_datos = "Raúl       ";
         System.out.println(base_datos.trim() + "-" + base_datos + "#");
 

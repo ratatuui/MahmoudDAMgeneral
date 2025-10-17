@@ -15,6 +15,10 @@ public class eje1_T2 {
 
         System.out.println(tamanyo);
 
+        String frases = teclado.next();
+
+        boolean sin_espacios = Boolean.parseBoolean(frases.trim());
+
 
 
 
