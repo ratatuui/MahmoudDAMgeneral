@@ -51,7 +51,7 @@ public class Practica2_Ud2
               return;
 
 
-            }else  System.out.println("introduce el segundo numero");
+            }else { System.out.println("introduce el segundo numero");
             // Aqui repito la estructura inicial de permitir exclusivamente numeros
         do {
             try {
@@ -94,6 +94,6 @@ public class Practica2_Ud2
 
                 //**FIN DEL PROGRAMA**
 
-        }
+        }}
     }
 }
