@@ -26,11 +26,6 @@ public class Practica_6 {
 
         double numero2 = teclado.nextDouble();
 
-
-
-
-
-
                switch (signo.toLowerCase()) {
 
 

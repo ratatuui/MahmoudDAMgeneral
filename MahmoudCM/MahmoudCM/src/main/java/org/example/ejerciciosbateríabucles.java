@@ -51,7 +51,7 @@ public class ejerciciosbateríabucles {
 //        Scanner teclado = new Scanner(System.in);
 //        System.out.println("Introduce una palabra");
 //
-//        String palabra = teclado.next();
+//        String palabra = teclado.next(); n
 //        int letras = palabra.length();
 //
 //       // for (int i=0; i < letras;i++){
