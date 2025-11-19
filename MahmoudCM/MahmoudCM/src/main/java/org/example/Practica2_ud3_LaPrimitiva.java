@@ -14,7 +14,7 @@ public class Practica2_ud3_LaPrimitiva {
 
         for (int i = 0; i< numerosg.length; i++){
 
-            numerosg[i] = aleatorio.nextInt(51);
+            numerosg[i] = aleatorio.nextInt(50);
         }
 
         boolean comprobar= true;
@@ -29,7 +29,7 @@ public class Practica2_ud3_LaPrimitiva {
                 if (i != numerosg.length - 1 && numerosg[i] == numerosg[i + 1]) {
 
                     System.out.println("duplicado " + numerosg[i]);
-                    numerosg[i] = aleatorio.nextInt(51);
+                    numerosg[i] = aleatorio.nextInt(50);
                     comprobar = true;
                 }
             }
@@ -37,11 +37,10 @@ public class Practica2_ud3_LaPrimitiva {
         //he creado el numero ganador(numerosg)
 
         System.out.println("Introduce tu boleto");
+            String boleto = key.nextLine();
+            String vector[] = boleto.split("-");
 
-        String boleto = key.nextLine();
         boolean numeross = boleto.matches("\\d{1,2}-\\d{1,2}-\\d{1,2}-\\d{1,2}-\\d{1,2}-\\d{1,2}");
-
-        String vector[] = boleto.split("-");
         while (numeross){
 
         numeross = false;
