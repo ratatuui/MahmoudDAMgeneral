@@ -75,10 +75,7 @@ public class Practica3_ud3_ZXSpectrum {
                     i--;
                     continue externo;
                 }
-
-
             }
-
         }
         for (String fila[] : matriz) {
             System.out.println(Arrays.toString(fila));
@@ -88,21 +85,20 @@ public class Practica3_ud3_ZXSpectrum {
         int errores = 0;
         String pos1 = matriz[0][0];
         String aux = "z";
-        ext:
-        for (int i = 0; i < matriz[0].length - 1; i++) {
+        for (int i = 0; i < matriz[8].length - 1; i++) {
 
-            if (!matriz[0][i].contains(matriz[0][i + 1])) {
+            if (!matriz[8][i].contains(matriz[8][i + 1])) {
 
                 errores++;
 
-                if (!matriz[0][i].contains(pos1)) {
+                if (!matriz[8][i].contains(pos1)) {
 
                     if (aux.contains("z")) {
 
-                        aux = matriz[0][i + 1];
+                        aux = matriz[8][i + 1];
 
                     } else {
-                        if (!matriz[0][i].contains(aux)) fallo = true;
+                        if (!matriz[8][i].contains(aux)) fallo = true;
 
                     }
                 }

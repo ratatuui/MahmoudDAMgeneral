@@ -26,11 +26,6 @@ public class Practica_UD3_Navidad {
                     System.out.print(palabra_vector[i]);
                 }
             }
-
-
-
-
-
         }else {
             System.out.println("la palbra y las cifras no coinciden");
         }
