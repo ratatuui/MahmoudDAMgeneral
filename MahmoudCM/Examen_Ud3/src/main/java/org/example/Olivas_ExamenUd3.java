@@ -21,7 +21,7 @@ public class Olivas_ExamenUd3 {
         System.out.print("largo: ");
         largo = teclado.nextInt();
 
-        String matriz[][]=new String[largo][ancho];
+        String matriz[][]=new String[ancho][largo];
 
         System.out.println("Introduce por hileras los kg por árbol de tu bancal:");
             //pido al usuario los datos necesarios y compruebo su long.

@@ -48,11 +48,17 @@ public class ExamenPracticoPrueba {
             System.out.println(Arrays.toString(filas));
 
         }
+        System.out.println("Premios");
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                System.out.println("Premios");
 
-
+                if (Arrays.stream(matriz).toList().contains(vector2)){
+                    System.out.println("Bingo");
+                    
+                }else {
+                    System.out.println("no bingo");
+                    break;
+                }
 
             }
 
