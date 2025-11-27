@@ -54,7 +54,7 @@ public class ExamenPracticoPrueba {
 
                 if (Arrays.stream(matriz).toList().contains(vector2)){
                     System.out.println("Bingo");
-                    
+
                 }else {
                     System.out.println("no bingo");
                     break;
