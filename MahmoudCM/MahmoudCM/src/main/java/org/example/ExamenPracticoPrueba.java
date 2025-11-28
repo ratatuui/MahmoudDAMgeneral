@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.Arrays;
+import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -27,21 +28,20 @@ public class ExamenPracticoPrueba {
         //Pido al usuario los datos colocandolos posteriormente con un for
         for (int i = 0; i < matriz.length; i++) {
 
-            System.out.print("fila " + (i+1) + ": ");
+                System.out.print("fila " + (i + 1) + ": ");
 
-           String filas[] = teclado.next().split("-");
+                String filas[] = teclado.next().split("-");
 
-            if (filas.length == matriz[i].length) {
-                for (int j = 0; j < matriz[i].length; j++) {
+                if (filas.length == matriz[i].length) {
+                    for (int j = 0; j < matriz[i].length; j++) {
 
-                    matriz[i][j] = filas[j];
+                        matriz[i][j] = filas[j];
 
+                    }
+                } else {
+                    System.out.println("El tamaño no es correcto (N-N-N)");
+                    i--;
                 }
-            }else{
-                System.out.println("El tamaño no es correcto (N-N-N)");
-                i--;
-            }
-
         }
         System.out.println("Datos del carton");
         for (String filas[]:matriz){
